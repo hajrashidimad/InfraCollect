@@ -1,0 +1,115 @@
+
+/* Import Global css */
+
+@import "/home/imad/Desktop/Drone/drone/src/assest/global.css";
+
+/* start Global Rules */
+body {
+  font-family: var(--font-family-1);
+  font-family: var(--font-family-2);
+  background-color: var(--main-light-color);
+}
+
+
+/* start Header NavBar */
+
+
+.NavBar {
+  padding: 20 px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-dark-color);
+  max-height: 50px;
+  font-family: var(--font-family-1);
+  font-family: var(--font-family-2);
+}
+
+
+.Logo {
+  color: white;
+  font-size: 30px;
+  padding-left: 35px;
+  padding-bottom: 5px;
+  font-style: oblique;
+}
+
+.I {
+  color: var(--orange-color);
+  font-size: 50px;
+
+}
+
+.C {
+  color: var(--orange-color);
+  font-size: 40px;
+
+
+}
+
+.Pages {
+  padding-right: 40px;
+  font-size: 15px;
+}
+
+.Pages a {
+  color: white;
+  text-decoration: none;
+  margin-right: 150px;
+  position: relative;
+  font-weight: 700;
+  display:inline-block;
+
+}
+
+
+a {
+  background-image: linear-gradient(to right,
+      #54b3d6,
+      #54b3d6 50%,
+      var(--main-dark-color) 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  background-position: 0;
+}
+
+
+.Pages a i{
+  color: white;
+  position: relative;
+  padding-left: 1px;
+  display:inline-block;
+  font-size: 1.3em;
+}
+
+
+
+.Pages :nth-child(3) i{
+  font-size: 22px;
+  position: relative;
+}
+
+
+/* .container-3 {
+  background-color: var(--main-dark-color);
+} */
+
