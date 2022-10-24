@@ -3,11 +3,9 @@ import './Live.css';
 
 
 const Lives = () => (
-  <body>
-      <div class="Live-Page">
+      <div className="Live-Page">
           Hello World From live page
       </div>
-  </body>
 )
 export default Lives;
 

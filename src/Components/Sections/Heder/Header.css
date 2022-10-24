@@ -20,9 +20,14 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-dark-color);
-  max-height: 50px;
+  max-height: 70px;
   font-family: var(--font-family-1);
   font-family: var(--font-family-2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: +4;
 }
 
 
@@ -48,8 +53,8 @@ body {
 }
 
 .Pages {
-  padding-right: 40px;
-  font-size: 15px;
+  padding-right: 30px;
+  font-size: 20px;
 }
 
 .Pages a {
@@ -57,19 +62,19 @@ body {
   text-decoration: none;
   margin-right: 150px;
   position: relative;
-  font-weight: 700;
+  font-weight: 800;
   display:inline-block;
-
 }
 
 
 a {
   background-image: linear-gradient(to right,
       #54b3d6,
-      #54b3d6 50%,
+      #54b3d6 46%,
       var(--main-dark-color) 50%);
+  /* background-color: var(--main-dark-color); */
   background-size: 200% 100%;
-  background-position: 100%;
+  background-position:calc(100%) ;
   display: inline-block;
   padding: 5px 0;
   position: relative;
@@ -78,7 +83,7 @@ a {
 
 a:before {
   content: '';
-  background: #54b3d6;
+  background-color: #54b3d6;
   display: block;
   position: absolute;
   bottom: 0px;
@@ -90,13 +95,13 @@ a:before {
 
 a:hover {
   background-position: 0;
+  /* background-color: var(--main-dark-color); */
 }
-
 
 .Pages a i{
   color: white;
   position: relative;
-  padding-left: 1px;
+  padding-left: 0px;
   display:inline-block;
   font-size: 1.3em;
 }

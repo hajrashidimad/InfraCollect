@@ -1,0 +1,87 @@
+/* The article fills all the space between header & footer */
+@import url(/home/imad/Desktop/Drone/drone/src/assest/global.css);
+
+body{ 
+  display:flex; 
+  flex-direction:column;
+  font-family: var(--font-family-1);
+}
+  
+article{ flex:1; }
+
+/* Start Carousel  */
+.carousel{
+  justify-content: center;
+  background-color: #D8DFE3;
+  margin: 100px 50px 40px;
+}
+
+.carousel {
+  height:220px;
+}
+
+/* End Carousel */
+
+
+.title{
+  text-align: center;
+}
+
+.ftitle::after{
+  content: '';
+  width: 200px;
+  height: 5px;
+  background-color: var(--orange-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+/* .car-plaques-scanner{
+  z-index: 4;
+  background-color: var(--gris-color);
+  margin: 0px 50px 0px;
+}
+
+
+
+.car-scanner-form{
+  max-width: 500px;
+  margin-top: 10px;
+  display: block;
+  justify-content: center;
+  background-color: var(--gris-color);
+}
+
+.car-scanner-form label{
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.car-scanner-form input{
+  margin-top: 5px;
+  height: 2em;
+  width: 25em;
+}
+
+#CarScannerbtn{
+  background-color: var(--orange-color);
+  border-radius: 2px solid var(--gris-color);
+  margin: 1em 0;
+  width: auto;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#CarScannerbtn:hover{
+  background-color: chocolate;
+} */
+
+/* span.input-group-text {
+  max-width: 300px;
+} */

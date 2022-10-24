@@ -1,8 +1,8 @@
 import Header from '../Sections/Heder/Header'
-import Main from '../HomePage/Main'
+import Main from '../HomePageContent/Main'
 import Footer from '../Sections/Footer/Footer'
-import Lives from '../LivePage/Lives'
-import Login from '../LoginPage/Login'
+import Lives from '../LivePageContent/Lives'
+import Login from '../LoginPageContent/Login'
 
 
 

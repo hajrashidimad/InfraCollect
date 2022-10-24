@@ -7,7 +7,7 @@ const Home = () => {
 
       <Header/>
       <Main/>
-      <Footer/>
+      {/* <Footer/> */}
 
     </React.Fragment>
 
