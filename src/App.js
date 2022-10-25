@@ -4,7 +4,8 @@ import { Routes } from "react-router-dom";
 import "./assest/global.css";
 import Home from "./Components/Pages/Home";
 import Live from "./Components/Pages/Live"
-import MyAcount from "./Components/Pages/MyAcount";
+import SignUp from "./Components/Pages/SignUp";
+import Login from "./Components/Pages/Login";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Routes> 
           <Route path="/" element={<Home/>} />
           <Route path="/Live" element={<Live/>} />
-          <Route path="/MyAcount" element={<MyAcount/>} />
+          <Route path="/Log-in" element={<Login/>} />
+          <Route path="/Sign-up" element={<SignUp/>} />
+          <Route path="/Logout" element={<Home/>} />
         </Routes>
       </div>
   );

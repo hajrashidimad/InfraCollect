@@ -144,7 +144,7 @@ function Main (){
           <li className="nav-item me-5">
             <button className={state.isShowing_1 ? "btn btn-primary btn-lg" :"btn btn-secondary btn-lg "} aria-current="page" 
             type="button" onClick={() => dispatch({ type: 'tab_1' })}>
-              Car plate scanner
+              Car plates scanner
             </button>
           </li>
           <li className="nav-item me-5">
